@@ -20,7 +20,9 @@ abstract class HttpClient {
   Future<void>? request({
     required String url,
     required String method,
-  }) {}
+  }) {
+    return null;
+  }
 }
 
 class HttpClientSpy extends Mock implements HttpClient {}
