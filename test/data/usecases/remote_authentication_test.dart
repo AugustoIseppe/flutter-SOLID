@@ -92,7 +92,7 @@ void main() {
 
     final account = await sut!.auth(params!);
 
-    expect(account!.token, validData['accessToken']);
+    expect(account.token, validData['accessToken']);
   });
 
   test(
