@@ -24,6 +24,7 @@ dependencies:
   faker: ^2.2.0 # Gerar dados falsos para testes
   mocktail: ^1.0.4
   network_image_mock: ^2.1.1
+  mockito: ^5.4.4
 
 dev_dependencies:
   flutter_test:
