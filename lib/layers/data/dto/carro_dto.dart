@@ -1,5 +1,6 @@
 import 'package:arquitetura/layers/domain/entitites/carro_entity.dart';
 
+// Funcionou perfeitamente!
 class CarroDto extends CarroEntity {
   String? nomeCarro;
   String? tipoCarro;
