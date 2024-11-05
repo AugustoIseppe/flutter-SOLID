@@ -1,4 +1,4 @@
-import 'package:arquitetura/layers/domain/entitites/carro_entity.dart';
+import 'package:arquitetura/layers/domain/entity/carro_entity.dart';
 
 // Funcionou perfeitamente!
 class CarroDto extends CarroEntity {

@@ -1,4 +1,4 @@
-import '../../entitites/carro_entity.dart';
+import '../../entity/carro_entity.dart';
 import '../../repositories/salvar_carro_favorito_repository.dart';
 import 'salvar_carro_favorito_usecase.dart';
 

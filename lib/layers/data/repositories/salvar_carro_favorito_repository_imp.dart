@@ -1,4 +1,4 @@
-import 'package:arquitetura/layers/domain/entitites/carro_entity.dart';
+import 'package:arquitetura/layers/domain/entity/carro_entity.dart';
 import 'package:arquitetura/layers/domain/repositories/salvar_carro_favorito_repository.dart';
 
 class SalvarCarroFavoritoRepositoryImp
