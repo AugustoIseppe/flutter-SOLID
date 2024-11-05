@@ -32,13 +32,13 @@ class CarroDto extends CarroEntity {
     };
   }
 
-  CarroDto fromMap(Map map) {
+  factory CarroDto.fromMap(Map map) {
     return CarroDto(
-      nomeCarro: map['nomeCarro'],
-      tipoCarro: map['tipoCarro'],
-      placaCarro: map['placaCarro'],
-      qtdPortasCarro: map['qtdPortasCarro'],
-      valorCarro: map['valorCarro'],
+      nomeCarro: map['nome'],
+      tipoCarro: map['tipo'],
+      placaCarro: map['placa'],
+      qtdPortasCarro: map['qtdPortas'],
+      valorCarro: map['valor'],
     );
   }
 }
