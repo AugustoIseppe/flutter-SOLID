@@ -8,7 +8,7 @@ class CarroController {
 
   CarroController(
       this._getCarrosPorCorUsecase, this._salvarCarroFavoritoUsecase) {
-    getCarrosPorCor('vermelho');
+    getCarrosPorCor('qualquer cor');
   }
 
   late CarroEntity carro;

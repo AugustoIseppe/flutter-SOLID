@@ -20,7 +20,7 @@ class GetCarrosPorCorLocalDatasourceImp implements GetCarrosPorCorDatasource {
 
   @override
   CarroDto call(String cor) {
-    if (cor == 'vermelho') {
+    if (cor.contains('vermelho')) {
       return CarroDto.fromMap(jsonVermelho);
     } else {
       return CarroDto.fromMap(jsonAny);
